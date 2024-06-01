@@ -1,0 +1,20 @@
+<script>
+  var record = "hello word";
+ record=record.toLowerCase()
+  
+  var count = 0;
+  for (let ch = 0; ch < record.length; record++) {
+    // const count = ch[record];
+    if (
+      record.charAt(ch) == "a" ||
+      record.charAt(ch) == "e" ||
+      record.charAt(ch) == "i" ||
+      record.charAt(ch) == "o" ||
+      record.charAt(ch) == "u"
+    ) {
+      count++;
+    }
+    console.log(count);
+  }
+  
+</script>
